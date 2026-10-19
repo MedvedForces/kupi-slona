@@ -4,7 +4,6 @@ public class SlonCli {
     public static void main(String[] args) {
         Slon slon = new Slon();
         System.out.println(slon.greeting());
-
         Scanner scanner = new Scanner(System.in);
         while (true) {
             String line = scanner.nextLine();

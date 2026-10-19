@@ -13,11 +13,7 @@ public class Slon {
     }
 
     public String greeting() {
-        return String.format(
-                "Привет!\nЯ - продавец слона\nДля справки используй %s или\n%s\n",
-                CMD_HELP,
-                questionStore.getGreetingQuestion()
-        );
+        return String.format("Привет!\nЯ - продавец слона\nДля справки используй %s или\n%s\n", CMD_HELP, questionStore.getGreetingQuestion());
     }
 
     public boolean isExitCommand(String line) {
